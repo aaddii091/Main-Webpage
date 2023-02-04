@@ -410,7 +410,7 @@ span {
   position: relative;
   top: 10%;
   width: 100%;
-  background: url(../img/slider/barin.png) no-repeat;
+  background: url(../img/slider/barin.png) no-repeat center center/cover;
   height: 69vh;
   z-index: 10;
   transform: scale(0.9);
@@ -517,7 +517,7 @@ span {
   position: relative;
   top: 10%;
   width: 100%;
-  background: url(../img/slider/hopt.png) no-repeat;
+  background: url(../img/slider/hopt.png) no-repeat center center/cover;
   height: 69vh;
   z-index: 10;
   transform: scale(0.9);
