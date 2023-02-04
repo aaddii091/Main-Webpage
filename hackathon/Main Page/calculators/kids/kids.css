@@ -260,11 +260,11 @@ input::-webkit-inner-spin-button {
 }
 .btn {
   vertical-align: middle;
-  margin-top: 25px;
+  margin-top: 17px;
   margin-right: 20px;
 }
 .btnn {
-  padding: 5px;
+  padding: 2px;
 }
 .output {
   padding-left: 10px;
@@ -274,4 +274,20 @@ input::-webkit-inner-spin-button {
   padding-top: 20px;
   font-size: smaller;
   font-weight: 200;
+}
+#weight {
+  width: 30%;
+}
+#height {
+  width: 30%;
+}
+.btnn {
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.322);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.btnn:hover {
+  transform: scale(1.1);
 }

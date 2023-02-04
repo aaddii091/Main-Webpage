@@ -7,7 +7,7 @@
 }
 @font-face {
   font-family: logo;
-  src: url(img/fonts/Unique.ttf);
+  src: url(/Fonts/Unique.ttf);
 }
 @font-face {
   font-family: adidas;
@@ -305,7 +305,7 @@ span {
 .predict {
   margin-top: 50px;
   width: 100%;
-  background: url(/img/slider/prdict.png) no-repeat;
+  background: url(../img/slider/prdict.png) no-repeat center center/cover;
   height: 69vh;
   z-index: 10;
   transform: scale(0.9);
@@ -319,7 +319,7 @@ span {
 }
 .long {
   width: 100%;
-  background: url(/img/predic/jc-gellidon-UIp163xCV6w-unsplash.jpg) no-repeat
+  background: url(../img/predic/jc-gellidon-UIp163xCV6w-unsplash.jpg) no-repeat
     center center/cover;
   /* background-size: 100% 100%; */
   background-attachment: fixed;
@@ -410,7 +410,7 @@ span {
   position: relative;
   top: 10%;
   width: 100%;
-  background: url(/img/slider/barin.png) no-repeat;
+  background: url(../img/slider/barin.png) no-repeat;
   height: 69vh;
   z-index: 10;
   transform: scale(0.9);
@@ -431,4 +431,143 @@ span {
   font-weight: 100;
   text-align: center;
   padding-top: 20px;
+}
+.modal {
+  position: fixed;
+  z-index: 99;
+}
+.modal_container {
+  height: 100%;
+  width: 100%;
+  display: block;
+  position: fixed;
+  align-items: center;
+}
+.modal_flex {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 10%;
+}
+.modal_flex i {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.user {
+  padding: 30px;
+  margin: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.377);
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.user:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  transform: scale(1.1);
+}
+.client {
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.377);
+  padding: 30px;
+  margin: 30px;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+.client:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  transform: scale(1.1);
+}
+.modal_cont {
+  border: 1px solid rgba(0, 0, 0, 0.356);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.308);
+  height: 40vh;
+  width: 50%;
+  border-radius: 30px;
+  position: relative;
+  left: 25%;
+  transform: translateX(-25%);
+  top: 50%;
+  transform: translateY(-50%);
+}
+.hidden {
+  transition: 0.5s;
+  display: none;
+}
+.bodyflow {
+  overflow: hidden;
+}
+.whole {
+  /* filter: blur(4px); */
+}
+.modal_flex a {
+  text-decoration: none;
+  color: #000000;
+}
+.trash1 {
+  position: relative;
+  top: 4%;
+}
+.trash11 {
+  position: relative;
+  top: 22%;
+}
+.brain1 {
+  margin-top: 70px;
+  position: relative;
+  top: 10%;
+  width: 100%;
+  background: url(../img/slider/hopt.png) no-repeat;
+  height: 69vh;
+  z-index: 10;
+  transform: scale(0.9);
+  border-radius: 40px;
+  box-shadow: #ffffff88 0px 0px 10px;
+  cursor: pointer;
+  transition: all 0.7s;
+}
+.brain1:hover {
+  box-shadow: #ffffffce 0px 0px 30px;
+  transform: scale(0.975);
+}
+.brain11 {
+  margin-top: 0px;
+  position: relative;
+  top: 10%;
+  width: 100%;
+  background: url(../img/slider/breast.png) no-repeat center center/cover;
+  height: 69vh;
+  z-index: 10;
+  transform: scale(0.9);
+  border-radius: 40px;
+  box-shadow: #00000088 0px 0px 10px;
+  cursor: pointer;
+  transition: all 0.7s;
+}
+.brain11:hover {
+  transform: scale(0.975);
+}
+.chupa {
+  display: none;
+}
+
+.hotspot1 {
+  background: url(../img/national-cancer-institute-L7en7Lb-Ovc-unsplash.jpg)
+    no-repeat center center/cover;
+  height: 100vh;
+}
+.hotspot1 h2 {
+  color: white;
+  font-weight: 100;
+  text-align: center;
+  padding-top: 20px;
+}
+#spy {
+  position: relative;
+  top: 20%;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0);
+  cursor: all-scroll;
 }

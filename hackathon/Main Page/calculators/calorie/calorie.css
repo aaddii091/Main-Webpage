@@ -7,7 +7,7 @@
 }
 @font-face {
   font-family: logo;
-  src: url(img/fonts/Unique.ttf);
+  src: url(/Fonts/Unique.ttf);
 }
 @font-face {
   font-family: adidas;
@@ -180,7 +180,7 @@ section a img {
   font-size: 6vh;
 }
 .cover {
-  height: 60vh;
+  height: 75vh;
   width: 100vh;
   border: 1px solid rgba(0, 0, 0, 0.534);
   position: relative;
@@ -253,4 +253,14 @@ input::-webkit-inner-spin-button {
 } */
 .bmi input::-webkit-inner-spin-button {
   -webkit-appearance: none;
+}
+.btnn {
+  padding-top: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.288);
+  cursor: pointer;
+}
+.okk {
+  margin-top: 10px;
 }

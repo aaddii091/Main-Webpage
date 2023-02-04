@@ -275,3 +275,9 @@ input::-webkit-inner-spin-button {
   font-size: smaller;
   font-weight: 200;
 }
+#height {
+  width: 25%;
+}
+#weight {
+  width: 25%;
+}

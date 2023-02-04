@@ -277,9 +277,29 @@ input::-webkit-inner-spin-button {
 }
 .btn {
   vertical-align: middle;
-  margin-top: 25px;
+  margin-top: 17px;
   margin-right: 20px;
 }
 .btnn {
-  padding: 5px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.322);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.btnn:hover {
+  transform: scale(1.1);
+}
+.height input[type="number"] {
+}
+.height {
+  width: 30%;
+}
+#weight {
+  width: 20%;
+}
+input[type="button"]:disabled {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 4px;
+  opacity: 0.5;
 }
