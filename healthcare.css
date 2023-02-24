@@ -21,9 +21,9 @@ html,
 body {
   height: 100%;
   width: 100%;
-  margin: 0;
+  margin: o;
   padding: 0;
-  background-color: rgba(255, 255, 255, 0.829);
+  background-color: rgba(254,255, 255, 0.829);
 }
 
 /* Global Styles */
